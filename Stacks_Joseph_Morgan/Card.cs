@@ -10,14 +10,14 @@ namespace Stacks_Joseph_Morgan
     {
 
 
-        public string Number { get; }
+        public string Number { get; } //making a number string to represent the number of the card
 
-        public string Suit { get; }
+        public string Suit { get; } //making a suit string to represent the suit of the card
 
-        public Card(string numParam, string suitParam)
+        public Card(string numParam, string suitParam) //constructor for the card class that takes in a number and suit parameter
         {
-            Number = numParam;
-            Suit = suitParam;
+            Number = numParam; //assigning the number parameter to the number property of the card class
+            Suit = suitParam; //assigning the suit parameter to the suit property of the card class
         }
     }
 }
